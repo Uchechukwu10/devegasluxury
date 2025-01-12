@@ -1,0 +1,10 @@
+{
+    "redirects": [
+      {
+        "source": "https://devegasluxury.com/:path*",
+        "destination": "https://www.devegasluxury.com/:path*",
+        "permanent": true
+      }
+    ]
+  }
+  
