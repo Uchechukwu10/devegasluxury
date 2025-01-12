@@ -1,0 +1,113 @@
+/* About.css */
+
+.about-us {
+    padding: 80px 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .about-image {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .about-photo {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .about-heading {
+    font-size: 2.5rem;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  .about-text {
+    font-size: 1.1rem;
+    color: #818181;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .about-values {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .about-values li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #000000;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #c09338;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #eadd8b;
+    color: #000000;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .about-image, .about-content {
+      flex: unset;
+      padding: 10px;
+    }
+  
+    .about-heading {
+      font-size: 2rem;
+    }
+  
+    .about-text {
+      font-size: 1rem;
+    }
+  
+    .cta-button {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about-heading {
+      font-size: 1.8rem;
+    }
+  
+    .about-text {
+      font-size: 0.9rem;
+    }
+  
+    .cta-button {
+      padding: 8px 16px;
+      font-size: 0.8rem;
+    }
+  }
+  
