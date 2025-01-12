@@ -1,8 +1,8 @@
 {
     "redirects": [
       {
-        "source": "https://devegasluxury.com/:path*",
-        "destination": "https://www.devegasluxury.com/:path*",
+        "source": "/:path*",
+        "destination": "https://www.devegasluxuryhomes.com/:path*",
         "permanent": true
       }
     ]
