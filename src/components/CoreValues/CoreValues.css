@@ -73,8 +73,16 @@
     }
   
     .core-value-card {
-      width: 100%;
-      max-width: 400px;
+      width: 400px;
+      height: 200px;
+    }
+  }
+
+  @media (max-width: 480px) {
+  
+    .core-value-card {
+      width: 200px;
+      height: 200px;
     }
   }
   
