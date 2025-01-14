@@ -1,75 +1,78 @@
-/* Services Section */
-.services-section {
+/* Core Values Section */
+.core-values-section {
     padding: 30px 15px;
     background-color: #f8f8f8;
     text-align: center;
   }
   
-  .services-heading {
+  .core-values-heading {
     font-size: 2.5rem;
-    color: #c09338;
+    color: #000000;
     margin-bottom: 40px;
   }
   
-  .services-container {
+  .core-values-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
   }
   
-  /* Service cards are hidden by default */
-  .service-card {
-    background-color: #ffffff;
+  /* Card Styles */
+  .core-value-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eadd8b;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     text-align: center;
-    width: 300px;
+    width: 200px;
+    height: 200px;
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.6s ease-out, transform 0.6s ease-out;
   }
   
-  .service-icon {
+  .core-value-icon {
     width: 80px;
     height: 80px;
     margin-bottom: 20px;
   }
   
-  .service-title {
+  .core-value-title {
     font-size: 1.5rem;
-    color: #000000;
+    color: #000000; /* Primary Color */
     margin-bottom: 10px;
-    height: 70px;
   }
   
-  .service-description {
-    font-size: 0.9rem;
+  .core-value-description {
+    font-size: 1rem;
     color: #818181;
     line-height: 1.6;
   }
   
-  /* When the section becomes visible, animate the cards */
-  .services-section.animate .service-card {
+  /* Animation on Scroll */
+  .core-values-section.animate .core-value-card {
     opacity: 1;
     transform: translateY(0);
   }
   
-  /* Hover effect */
-  .service-card:hover {
+  /* Hover Effect */
+  .core-value-card:hover {
     transform: translateY(-10px) scale(1.02);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   }
   
   /* Responsive Styles */
   @media (max-width: 768px) {
-    .services-container {
+    .core-values-container {
       flex-direction: column;
       align-items: center;
     }
   
-    .service-card {
+    .core-value-card {
       width: 100%;
       max-width: 400px;
     }
