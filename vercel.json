@@ -1,9 +1,15 @@
 {
-    "redirects": [
-      {
-        "source": "/devegasluxuryhomes.com",
-        "destination": "/www.devegasluxuryhomes.com",
-        "permanent": true
-      }
-    ]
-  }
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "devegasluxuryhomes.com"
+        }
+      ],
+      "destination": "https://www.devegasluxuryhomes.com/:path*",
+      "permanent": true
+    }
+  ]
+}
