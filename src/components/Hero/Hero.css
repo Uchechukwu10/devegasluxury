@@ -1,22 +1,37 @@
-
+/* Hero Section */
 .hero {
   position: relative;
   height: 100vh;
-  background: url('/analog-landscape-city-with-buildings.jpg') no-repeat center center/cover;
+  overflow: hidden;
 }
 
+/* Background Image */
+.hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-image 1s linear; /* Smooth transition between images */
+}
+
+/* Hero Overlay */
 .hero-overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.65); /* Dark overlay */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* Hero Content */
 .hero-content {
   text-align: center;
   color: #ffffff;
@@ -57,17 +72,6 @@
 
 .primary-button:hover {
   background-color: #eadd8b;
-  color: #000000;
-}
-
-.secondary-button {
-  background-color: transparent;
-  border: 2px solid #ffffff;
-  color: #ffffff;
-}
-
-.secondary-button:hover {
-  background-color: #ffffff;
   color: #000000;
 }
 
