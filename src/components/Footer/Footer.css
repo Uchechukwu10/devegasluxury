@@ -37,6 +37,15 @@
   .footer-section a:hover {
     color: #c09338;
   }
+
+  .footer-section.brand-logo a {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-section.brand-logo img {
+width: 130px;
+height: 130px;
+  }
   
   .quick-links ul {
     list-style: none;
@@ -88,7 +97,10 @@
       align-items: center;
       text-align: center;
     }
-  
+    .footer-section.brand-logo a {
+     justify-content: center;
+     align-items: center;
+    }
     .footer-section {
       min-width: 100%;
     }

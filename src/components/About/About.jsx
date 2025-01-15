@@ -4,7 +4,7 @@ import { FaStar, FaKey, FaChartLine, FaGlobeAfrica } from "react-icons/fa";
 
 const About = () => {
   return (
-    <section className="about-us">
+    <section id="about-us" className="about-us">
       <h2 className="about-heading">Who We Are</h2>
       <div className="container">
         {/* Left Side: Image */}
@@ -24,12 +24,12 @@ const About = () => {
             commitment to quality, innovation, and customer satisfaction. Our
             team of experts brings together years of industry knowledge and a
             deep understanding of luxury living to create properties that
-            inspire and delight. We specialize in providing bespoke real estate
+            inspire and delight. <span className="about-extra-text">We specialize in providing bespoke real estate
             solutions, offering a wide range of services that include real
             estate development, building construction, and project management.
             Our mission is to design and deliver premium residential and
             commercial properties that embody elegance, functionality, and
-            lasting value.
+            lasting value.</span>
           </p>
           <ul className="about-values">
             <li>

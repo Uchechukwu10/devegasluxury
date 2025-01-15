@@ -81,6 +81,9 @@ a {
   font-size: 1.5rem;
   font-weight: 600;
 }
+button {
+  cursor: pointer;
+}
 
 .button {
   font-weight: 500;

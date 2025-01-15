@@ -116,6 +116,9 @@
     .about-text {
       font-size: 0.9rem;
     }
+    .about-extra-text {
+      display: none;
+    }
     .about-values {
       font-size: 0.85rem;
     }
