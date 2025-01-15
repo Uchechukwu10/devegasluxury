@@ -45,6 +45,7 @@
 
 .navbar .nav-links li {
   margin: 0 15px;
+  cursor: pointer;
 }
 
 .navbar .nav-links a {
@@ -59,6 +60,7 @@
 }
 
 .nav-cta-button {
+  cursor: pointer;
   padding: 10px 20px;
   background-color: #c09338;
   color: #ffffff;

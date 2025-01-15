@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './Header.css';
+import { Link } from "react-scroll"
 
 const Header = () => {
   const [isVisible, setIsVisible] = useState(true);
@@ -49,11 +50,10 @@ const Header = () => {
         {/* Navigation */}
         <nav className={`navbar ${menuOpen ? 'open' : ''}`}>
           <ul className="nav-links">
-            <li><a href="#home" onClick={handleMenuItemClick}>Home</a></li>
-            <li><a href="#about-us" onClick={handleMenuItemClick}>About Us</a></li>
-            <li><a href="#services" onClick={handleMenuItemClick}>Services</a></li>
-            <li><a href="#listings" onClick={handleMenuItemClick}>Listings</a></li>
-            <li><a href="#contact-us" onClick={handleMenuItemClick}>Contact Us</a></li>
+            <li><Link to="home" smooth={true} duration={500} onClick={handleMenuItemClick}>Home</Link></li>
+            <li><Link to="about-us" smooth={true} duration={500} onClick={handleMenuItemClick}>About Us</Link></li>
+            <li><Link to="services" smooth={true} duration={500} onClick={handleMenuItemClick}>Services</Link></li>
+            <li><Link to="footer" smooth={true} duration={500} onClick={handleMenuItemClick}>Contact Us</Link></li>
           </ul>
         </nav>
 
@@ -65,7 +65,7 @@ const Header = () => {
         </div>
 
         {/* Call-to-Action Button */}
-        <a href="#get-started" className="nav-cta-button">Get Started</a>
+        <Link to="about-us" smooth={true} duration={500} className="nav-cta-button">Learn More</Link>
       </div>
     </header>
   );
