@@ -41,8 +41,7 @@ const Services = () => {
     },
     {
       title: "Project Management",
-      description:
-        "Effective project management is the cornerstone of successful real estate and construction projects. At De Vegas Luxury Homes and Properties, we offer comprehensive project management services designed to streamline every phase of your development journey.",
+      description: "At De Vegas Luxury Homes and Properties, we offer comprehensive project management services designed to streamline every phase of your development journey. We partner with reputable real estate companies to develop exquisite properties, ensuring the satisfaction of end users.",
       icon: "./clipboard.png", // Replace with the actual icon/image path
     },
   ];
